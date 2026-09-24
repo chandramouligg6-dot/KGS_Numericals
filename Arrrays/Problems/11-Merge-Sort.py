@@ -56,6 +56,8 @@ def mergeSortDivide(arr,start,end):
     # merging
     mergeSortMerge(arr, start, mid, end)
 
+
+
 print("Enter a elements into array: ")
 arr = createIntArray()
 print("The created array is:", arr)
